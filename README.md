@@ -53,6 +53,17 @@
   * Unfreezing the body layers, training another 5 epochs
     - loss is almost fixed, stucking in local minmum
  
-  *  
+  * Unfreezing the body layers, training another 2 epoch
+    - change optimizer to SGD with learinig rate = 0.1 and momuntem = 0.9 (Trying to go out of local minmum)
+    - loss is still fixed, stucking in local minmum too
+ 
+  * freezing the body again, 5 epochs
+    - loss is still fixed
+ 
+  * Ignoreing learned parameters and training with intial weights of vgg16, 10 epochs, body freezed
+   - loss decreasing over epochs 
+   - training acc. = 0.83
+   - testing  acc. = 0.44 
+   - overfitting
 
  
