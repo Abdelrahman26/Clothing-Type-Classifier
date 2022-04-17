@@ -11,7 +11,7 @@
   * kids - flag, True if it's clothes for kids
  
  - Over 5,000 images of 20 different classes 
- - classes 
+
  
  ## Data handling
  
@@ -26,5 +26,17 @@
  * resing all images to fixed size
  * converting images to tensors with value from zero to one 
 - intializing instances(trainset, testset) from Dataset class
+- intializing trainloader and testloader
+- mapping trainloader and testloader to train and test in dataloader
+- Instaling vgg16(Architecture and pre-trained weights)
+ 
+## Approaches
+ 
+- since the dataset is a small dataset, then building network and run it from scratch will cause overfitting
+- Transfer Learning may be a good solution!
+  * used vgg16 trained on ImageNet as a pre-trained network
+  * I have freezed the body of the network, removing the head layers, adding new layer in the head\
+ including conv2d, RelU, AdaptiveAvgpool2d, and final dense layer
+ 
 
  
