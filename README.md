@@ -1,4 +1,5 @@
 # Clothing-Type-Classifier
 
-## Dataset 
--> ddsdcdssdds
+## Data 
+
+### Dataset from kaggle ## [Dataset](https://www.kaggle.com/datasets/agrigorev/clothing-dataset-full)
