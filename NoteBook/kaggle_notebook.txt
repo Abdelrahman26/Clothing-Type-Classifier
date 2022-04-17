@@ -1,0 +1,1 @@
+https://www.kaggle.com/abdelrahman26/clothes-classifier-vgg16-body-frozen
