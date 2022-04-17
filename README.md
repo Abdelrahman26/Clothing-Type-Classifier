@@ -1,1 +1,3 @@
 # Clothing-Type-Classifier
+
+** Dataset ** 
