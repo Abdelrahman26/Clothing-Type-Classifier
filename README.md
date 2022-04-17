@@ -61,9 +61,9 @@
     - loss is still fixed
  
   * Ignoreing learned parameters and training with intial weights of vgg16, 10 epochs, body freezed
-   - loss decreasing over epochs 
-   - training acc. = 0.83
-   - testing  acc. = 0.44 
-   - overfitting
+    - loss decreasing over epochs 
+    - training acc. = 0.83
+    - testing  acc. = 0.44 
+    - overfitting
 
  
