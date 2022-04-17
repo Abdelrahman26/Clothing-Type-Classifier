@@ -35,8 +35,7 @@
 - since the dataset is a small dataset, then building network and run it from scratch will cause overfitting
 - Transfer Learning may be a good solution!
   * used vgg16 trained on ImageNet as a pre-trained network
-  * Freezing the body of the network, removing the head layers, adding new layer in the head\
- including conv2d, RelU, AdaptiveAvgpool2d, and final dense layer
+  * Freezing the body of the network, removing the head layers, adding new layer in the head including conv2d, RelU, AdaptiveAvgpool2d, and final dense layer
   * used Adam optimizer to adapt with learning rate  
   1. Training the data with 3 epochs
     * loss decreasing
